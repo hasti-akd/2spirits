@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+  display: flex;
+  flex-direction: row;
+  font-family: 'DM Sans', sans-serif;
+}
+
+button{
+  border-radius: 50px !important;
+}
+
+.dropdown-menu{
+  --bs-dropdown-link-hover-bg: #fff !important;
+  --bs-dropdown-link-hover-color:blue !important;
+}
+
+.container-fluid img{
+  margin-right:15rem;
+  margin-left:7rem;
+}
+
+.bg-body-tertiary {
+  --bs-bg-opacity: 0 !important;
+}
+
+.collapse button{
+  margin-right: 7rem;
+}
+
+ol{
+  padding-left: 0rem !important;
+}
+
+.navbar-nav li:last-child{
+  padding-right:2.6rem;
+}
+
+.container1{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5rem;
+}
+
+.container1 div:nth-child(1){
+  width: 80%;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.container1 div:nth-child(2){
+  display: flex;
+  justify-content: flex-end;
+}
+
+.container1 img{
+  border-radius: 24px;
+  width: 80%;
+}
+
+.container2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+
+.container3{
+  display: flex;
+  flex-direction: column;
+}
+
+.container31{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 34px;
+}
+
+.container31 img{
+  border-radius: 24px;
+  margin-right: 64px;
+}
+
+.container31 div:nth-child(2){
+  display: grid;
+  justify-content: center;
+}
+
+.container31 button{
+  width:157px;
+  padding: 0px;
+}
+
+.container4{
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+
+.container5{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.container5 div{
+  border-radius: 24px;
+  width: 28%;
+  text-align: center;
+  padding: 90px;
+}
+
+.container5 a, .container6 a{
+  cursor: pointer;
+  font-size: large;
+}
+
+.container6 {
+  margin-top: 64px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-bottom: 64px;
+}
+
+.container6 div:first-child{
+  width:24%;
+  margin-right: 64px; 
+}
+
+.container6 div+div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 24px;
+  width: 18%;
+  text-align: center;
+}
+
+.container7 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.container7 div{
+  margin-top: 34px;
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 120px;
+}
